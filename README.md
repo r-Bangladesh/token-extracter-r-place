@@ -8,7 +8,7 @@ irm get.scoop.sh | iex
 scoop install git python wget unzip
 git clone https://github.com/r-Bangladesh/token-extracter-r-place.git
 cd token-extracter-r-place
-pip install ./requirement.txt
+pip install -r ./requirement.txt
 wget https://edgedl.me.gvt1.com/edgedl/chrome/chrome-for-testing/115.0.5790.102/win64/chrome-win64.zip
 unzip ./chrome-win64.zip
 ```
